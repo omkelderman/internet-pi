@@ -19,6 +19,7 @@
 - name: Ensure Shelly Plug Prometheus exporter is running.
   community.docker.docker_compose:
     project_src: "{{ config_dir }}/shelly-plug-prometheus/"
+    remove_orphans: true
     build: false
   become: false
 
