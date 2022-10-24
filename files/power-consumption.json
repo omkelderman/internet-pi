@@ -20,15 +20,13 @@
   },
   "editable": true,
   "fiscalYearStartMonth": 0,
+  "gnetId": null,
   "graphTooltip": 0,
   "links": [],
   "liveNow": false,
   "panels": [
     {
-      "datasource": {
-        "type": "prometheus",
-        "uid": "P1809F7CD0C75ACF3"
-      },
+      "datasource": "prometheus",
       "description": "",
       "fieldConfig": {
         "defaults": {
@@ -79,14 +77,9 @@
         "showThresholdMarkers": true,
         "text": {}
       },
-      "pluginVersion": "8.4.2",
+      "pluginVersion": "8.2.5",
       "targets": [
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "P1809F7CD0C75ACF3"
-          },
-          "exemplar": false,
           "expr": "power",
           "interval": "",
           "legendFormat": "{{job}}",
@@ -98,10 +91,7 @@
       "type": "gauge"
     },
     {
-      "datasource": {
-        "type": "prometheus",
-        "uid": "P1809F7CD0C75ACF3"
-      },
+      "datasource": "prometheus",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -151,14 +141,9 @@
         "showThresholdMarkers": true,
         "text": {}
       },
-      "pluginVersion": "8.4.2",
+      "pluginVersion": "8.2.5",
       "targets": [
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "P1809F7CD0C75ACF3"
-          },
-          "exemplar": false,
           "expr": "power",
           "interval": "",
           "legendFormat": "{{job}}",
@@ -170,10 +155,7 @@
       "type": "gauge"
     },
     {
-      "datasource": {
-        "type": "prometheus",
-        "uid": "P1809F7CD0C75ACF3"
-      },
+      "datasource": "prometheus",
       "description": "",
       "fieldConfig": {
         "defaults": {
@@ -257,11 +239,6 @@
       "pluginVersion": "8.4.2",
       "targets": [
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "P1809F7CD0C75ACF3"
-          },
-          "exemplar": true,
           "expr": "power",
           "interval": "",
           "legendFormat": "{{job}}",
@@ -274,7 +251,7 @@
     }
   ],
   "refresh": "5m",
-  "schemaVersion": 35,
+  "schemaVersion": 32,
   "style": "dark",
   "tags": [
     "power"
@@ -290,6 +267,5 @@
   "timezone": "",
   "title": "Power consumption",
   "uid": "i_aeo-uMz",
-  "version": 1,
-  "weekStart": ""
+  "version": 2
 }
