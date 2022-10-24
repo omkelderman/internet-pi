@@ -82,7 +82,7 @@
         {
           "expr": "power",
           "interval": "",
-          "legendFormat": "{{job}}",
+          "legendFormat": "{{humanname}}",
           "queryType": "randomWalk",
           "refId": "A"
         }
@@ -146,7 +146,7 @@
         {
           "expr": "power",
           "interval": "",
-          "legendFormat": "{{job}}",
+          "legendFormat": "{{humanname}}",
           "queryType": "randomWalk",
           "refId": "A"
         }
@@ -241,7 +241,7 @@
         {
           "expr": "power",
           "interval": "",
-          "legendFormat": "{{job}}",
+          "legendFormat": "{{humanname}}",
           "queryType": "randomWalk",
           "refId": "A"
         }

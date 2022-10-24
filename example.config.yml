@@ -34,7 +34,8 @@ prometheus_extra_scrape_configs: ''
 # Shelly Plug configuration. (Also requires `monitoring_enable`)
 shelly_plugs_enable: false
 shelly_plugs:           # list of Shelly Plugs to connect to
-  - name: my-shelly-plug   # will show up in dashboard to identify this plug
+  - name: my-shelly-plug
+    human_readable_name: My Shelly Plug
     hostname: "my-shelly-plug-host-or-ip"
     port: 9924
     http_username: username
