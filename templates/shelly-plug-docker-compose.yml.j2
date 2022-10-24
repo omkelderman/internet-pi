@@ -11,8 +11,8 @@ services:
       - "{{ plug.port }}:80"
     environment:
       SHELLY_HOSTNAME: '{{ plug.hostname }}'
-      SHELLY_HTTP_USERNAME: '{{ shelly_plugs_http_username }}'
-      SHELLY_HTTP_PASSWORD: '{{ shelly_plugs_http_password }}'
+      SHELLY_HTTP_USERNAME: '{{ plug.http_username }}'
+      SHELLY_HTTP_PASSWORD: '{{ plug.http_password }}'
     volumes:
       - './:/var/www/html'
     restart: unless-stopped
