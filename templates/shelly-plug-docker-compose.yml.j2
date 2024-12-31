@@ -1,7 +1,5 @@
 # {{ ansible_managed }}
 ---
-version: "3"
-
 services:
 {% for plug in shelly_plugs %}
   shelly-plug-{{ plug.name }}:
